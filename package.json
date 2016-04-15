@@ -1,0 +1,25 @@
+{
+  "name": "db2hx",
+  "version": "1.0.0",
+  "description": "conf=[conf_filename] output=[output_folder] ./run.sh",
+  "main": "db2hx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mebyz/db2hx.git"
+  },
+  "author": "emmanuel.botros@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mebyz/db2hx/issues"
+  },
+  "homepage": "https://github.com/mebyz/db2hx#readme",
+  "dependencies": {
+    "tedious" : "1.12.2",
+    "mssql": "2.3.2",
+    "sequelize": "3.17.0",
+    "async": "*"
+  }
+}

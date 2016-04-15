@@ -1,0 +1,14 @@
+DB_HOST:
+DB_USER:
+DB_PASSWORD:
+DB_NAME:
+DB_OPTIONS: 
+  dialect: sqlite
+  storage: db.sqlite
+  pool: 
+    max: 5
+    min: 0
+    idle: 10000
+  dialectOptions:
+    encrypt: true
+  logging: false
